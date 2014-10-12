@@ -1,0 +1,33 @@
+.description {
+  color: red;
+  max-width: 60%;
+
+}
+
+.app{
+    /*It works on Chrome, Firefox and Safari*/
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	/*-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;*/
+}
+
+.screenshot{
+
+	max-width: 40%;
+}
+
+* {
+   outline: 1px solid red !important;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
