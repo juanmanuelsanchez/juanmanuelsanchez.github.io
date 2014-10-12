@@ -5,7 +5,7 @@
 }
 
 .app{
-    /*It works on Chrome, Firefox and Safari*//
+    /*It works on Chrome, Firefox and Safari*/
 	display: flex;
 	display: -webkit-box;
 	display: -moz-box;
