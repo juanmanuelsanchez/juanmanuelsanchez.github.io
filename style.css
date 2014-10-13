@@ -1,6 +1,23 @@
+body{
+
+   margin: 35px;
+
+}
+h1 {
+
+	font-family: arial;
+	background-color: #33bebe;
+	color: #fff;
+}
+
+
 .description {
   color: red;
   max-width: 60%;
+  padding-left: 15px;
+  padding-right: 10px;
+  text-align: -webkit-auto;
+
 
 }
 
@@ -25,6 +42,7 @@
 * {
    outline: 1px solid red !important;
 }
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
