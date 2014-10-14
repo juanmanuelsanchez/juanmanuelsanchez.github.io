@@ -14,9 +14,11 @@ h1 {
 .description {
   color: red;
   max-width: 60%;
+  width: 60%;
   padding-left: 15px;
   padding-right: 10px;
-  text-align: -webkit-auto;
+  padding-top: 10px;
+  text-align: justify;
 
 
 }
@@ -37,6 +39,11 @@ h1 {
 .screenshot{
 
 	max-width: 40%;
+}
+
+.image {
+
+	width: 100%;
 }
 
 * {
