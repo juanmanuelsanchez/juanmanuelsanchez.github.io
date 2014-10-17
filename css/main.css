@@ -59,6 +59,12 @@ h3 {
 	width: 100%;
 	margin-bottom:0px;
 	display: flex; flex-wrap: wrap;
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
 	/*display: block;*/
 	/*display: float;*/
 }
@@ -155,15 +161,17 @@ h3 {
 	}*/
 
 #bannerow, #footerheadrow, #footerbodyrow{
-  flex-wrap: wrap;
+  display: flex; flex-wrap: wrap;
   flex-direction: column;
   width: 100%;
+
 
 }
 
 
  .col-4 {
 	 width: 100%;
+	
 	}
 
  #banner {
