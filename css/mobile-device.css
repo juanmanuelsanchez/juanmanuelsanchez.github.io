@@ -22,6 +22,7 @@ h1 {
 }
 
 h2 {
+	
 	font-family: 'Lato', light 300;
 	color: black;
 	text-shadow:0px 4px 8px rgba(0,0,0,0.4);
@@ -49,6 +50,7 @@ h3 {
 
 .grid {
 	margin: 0 auto;
+	
 	max-width: 1200px;
 	width:100%;
 }
@@ -56,8 +58,10 @@ h3 {
 .row {
 	width: 100%;
 	margin-bottom:0px;
-	display: flex; flex-wrap: wrap;
-	display: flex;
+	display: flex; 
+	flex-wrap: wrap;
+	flex-direction: column;
+	/*display: flex;
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -66,39 +70,18 @@ h3 {
 	/*display: block;*/
 	/*display: float;*/
 }
-.col-1 {
-	width: 8.33%;
-}
-.col-2 {
-	width:16.66%
-}
-.col-3 {
-	width:25%
-}
+
+
+
 .col-4 {
-	width:33.33%
-}
-.col-5 {
-	width:41.66%
+	width:100%;
 }
 .col-6 {
-	width:50%
+	width:100%;
 }
-.col-7 {
-	width:58.33%
-}
-.col-8 {
-	width:66.66%
-}
-.col-9 {
-	width:75%
-}
-.col-10 {
-	width:83.33%
-}
-.col-11 {
-	width:91.66%
-}
+
+
+
 .col-12 {
 	width:100%;
 
@@ -109,14 +92,10 @@ h3 {
 #logo {
      
     width: 20%;
-	height:100px;
+	height:200px;
 	min-width: 95px;
 	background-size: 100% 100%;
 	float:left;
-	margin-left: 20px;
-	margin-right:20px;
-	margin-bottom:20px;
-	margin-top: 20px;
 	box-shadow:0px 10px 25px rgba(0,0,0,0.4);
 }
 
@@ -140,7 +119,7 @@ h3 {
 .image {
 
 	width: 100%;
-	max-height: 200px;
+	max-height: 400px;
 	box-shadow:0px 10px 25px rgba(0,0,0,0.4);
 }
 
@@ -148,68 +127,7 @@ h3 {
 
 	opacity: 0.6;
 }
-@media only screen and (max-width: 500px)  { 
 
 
-
-.row {
-  
-   
-   
-   display: flex; flex-wrap: wrap;
-   flex-direction: column;
-    display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-    width: 100%;
-
-
-	}
-
-/*
-#bannerow, #footerheadrow, #footerbodyrow{
-    flex-wrap: wrap;
-    flex-direction: column;
-    display: flex;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-    
-    padding-right: 6.25%;
-    padding-left: 6.25%;
-    width: 100%;
-
-
-}*/
-
-
- .col-4 {
-	width: 100%;
-	
-	 
-
-	}
-
- #banner {
-
- 	height: 200px;
- }
-
- #image {
-
- 	width: 100%;
- }
-
-
-}
-/*
-#contienebanner{
-padding:10px;
-background:rgba(255,255,255,0.6);
-}*/
 
 
