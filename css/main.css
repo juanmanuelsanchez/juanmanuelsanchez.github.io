@@ -1,6 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Merienda);
-@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
-@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 
 body{
@@ -18,20 +16,20 @@ p, h1, h3 {
 
 h1 {
 
-	font-family: 'Merienda', cursive;
+	font-family: 'Lato', normal;
 	color: white;
 	text-shadow:0px 4px 8px rgba(0,0,0,0.4);
 }
 
 h2 {
-	font-family: 'Pacifico', normal;
+	font-family: 'Lato', light 300;
 	color: black;
 	text-shadow:0px 4px 8px rgba(0,0,0,0.4);
 }
 
 h3 {
 
-	font-family: 'Dancing+Script', cursive;
+	font-family: 'Lato', normal;
 	color: black;
 	text-shadow:0px 4px 8px rgba(0,0,0,0.4);
 }
@@ -51,19 +49,19 @@ h3 {
 
 .grid {
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 960px;
 	width:100%
 }
 
 .row {
 	width: 100%;
-	margin-bottom:0px;
+	/*margin-bottom:0px;
 	display: flex; flex-wrap: wrap;
 	display: flex;
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
-	display: -webkit-flex;
+	display: -webkit-flex;*/
 	display: flex;
 	/*display: block;*/
 	/*display: float;*/
@@ -115,10 +113,6 @@ h3 {
 	min-width: 95px;
 	/*background-size: 100% 100%;*/
 	float:left;
-	margin-left: 20px;
-	margin-right:20px;
-	margin-bottom:20px;
-	margin-top: 20px;
 	box-shadow:0px 10px 25px rgba(0,0,0,0.4);
 }
 
@@ -153,34 +147,93 @@ h3 {
 @media only screen and (max-width: 500px)  { 
 
 
-/*
-.row {
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 100%;
-	}*/
+body{
 
-#bannerow, #footerheadrow, #footerbodyrow{
-  display: flex; flex-wrap: wrap;
-  flex-direction: column;
-  width: 100%;
-
-
+	display: flex;
 }
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+	}
+
+/*
+#bannerow, #footerheadrow, #footerbodyrow{
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    
+    padding-right: 6.25%;
+    padding-left: 6.25%;
+    width: 100%;
+
+
+}*/
 
 
  .col-4 {
-	 width: 100%;
-	
+	width: 33.33%;
+	 
+
 	}
+.col-12 {
 
- #banner {
-
- 	height: 200px;
- }
-
+	width: 33.33%;
 
 }
+
+.col-6 {
+
+	width: 33.33%;
+}
+
+ #banner {
+    width: 33.33%;
+ 	height: 80px;
+ }
+
+ #image {
+     
+     width: 33.33%;
+ 	height: 100px;
+ }
+
+.pad-left {
+
+	padding-left: 6.25%;
+
+}
+
+.pad-right {
+
+	padding-right: 6.25%;
+	
+}
+
+hr {
+
+	border: none;
+	height: 8px;
+	padding: 0;
+}
+.text-center {
+
+	text-align: center;
+}
+
+.text-medium {
+
+	font-size: 14px;
+}
+
+}
+
+
 /*
 #contienebanner{
 padding:10px;
