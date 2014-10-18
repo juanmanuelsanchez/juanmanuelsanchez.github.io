@@ -61,12 +61,12 @@ h3 {
 	display: flex; 
 	flex-wrap: wrap;
 	flex-direction: column;
-	/*display: flex;
+	display: flex;
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
-	display: flex;
+	
 	/*display: block;*/
 	/*display: float;*/
 }
