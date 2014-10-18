@@ -51,12 +51,12 @@ h3 {
 .grid {
 	margin: 0 auto;
 	
-	max-width: 1200px;
+	max-width: 500px;
 	width:100%;
 }
 
 .row {
-	width: 100%;
+	width: 33.33%;
 	margin-bottom:0px;
 	display: flex; 
 	flex-wrap: wrap;
@@ -74,16 +74,16 @@ h3 {
 
 
 .col-4 {
-	width:33.33%;
+	width:100%;
 }
 .col-6 {
-	width:33.33%;
+	width:100%;
 }
 
 
 
 .col-12 {
-	width:33.33%;
+	width:100%;
 
 }
 
