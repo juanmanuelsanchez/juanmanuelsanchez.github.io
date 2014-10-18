@@ -152,7 +152,7 @@ body{
 
 	display: flex;
 }
-.row {
+.row, #titlerow.row,.row.text-muted.text-medium.bottom-border,.row.text-center {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -177,12 +177,12 @@ body{
 }*/
 
 
- .col-4 {
+ .col-4, .col-4.right-border{
 	width: 33.33%;
 	 
 
 	}
-.col-12 {
+.col-12, #banner.col-12 {
 
 	width: 33.33%;
 
