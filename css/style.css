@@ -29,5 +29,11 @@ body{
 }
 hr {
 
-	
+ border-width: 10px;
+ border-color: #bcbbbb;
 }
+#Appify:hover, #Sunflower:hover, #Bokeh:hover {
+
+   opacity: 0.7;
+}
+
